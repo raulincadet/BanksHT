@@ -1,0 +1,7 @@
+library(XML)
+
+url <- "https://www.brh.ht/supervision-bancaire/rapports-statistiques-2/"
+pageContent <- readLines(url)
+Links <- getHTMLLinks(pageContent)
+xlsFiles <- grep("\\.xls", Links)
+df_xls<-Links[xlsFiles]
