@@ -33,5 +33,16 @@ for (i in 1:length(files)) {
   download.file(url=files[i], destfile=f_filesNames(files[i]), mode="wb")
 }
 
+########
+# Writing files names in a csv file
+all_filesNames=function(){ # list of all Excel files names,without the URL link
+  y=NULL
+  for(i in 1:length(files)){
+    y[[i]]=f_filesNames(files[i])
+  }
+  unlist(y)
+}
+all_filesNames()
 
+#write.csv(all_filesNames(),'BRH_ExcelFiles.csv',row.names = F)
 
