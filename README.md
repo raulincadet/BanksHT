@@ -19,17 +19,17 @@ While R is used to download the excel files, a greater part of the job is done w
 ### Packages and modules
 The packages and modules used for each one of these programming languages are shown below.
 
-A) R
-    * stringi
-    * XML
-B) Python
-    * calendar
-    * datetime
-    * dateutil
-    * numpy
-    * math
-    * pandas
-    * unicode
+1. R
+   * stringi
+   * XML
+3. Python
+   * calendar
+   * datetime
+   * dateutil
+   * numpy
+   * math
+   * pandas
+   * unicode
     
 ### Challenges
 I had to face some challenges to realize this phase of the projects. Indeed, although the excel files seems to be similar, it is not always the case. There are some other challenges. They are mentionned below:
