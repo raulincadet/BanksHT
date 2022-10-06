@@ -1,0 +1,27 @@
+{
+    "id": "E1D53018",
+    "path": "~/Raul/GitHub/BanksHT/buildRDAfile.R",
+    "project_path": "buildRDAfile.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1663077235421.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "23,61",
+        "scrollLine": "14"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1663275524,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1663275524057,
+    "read_only": false,
+    "read_only_alternatives": []
+}
