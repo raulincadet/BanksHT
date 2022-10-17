@@ -14,7 +14,9 @@ This repository is a first part of a personal project to collect and structured 
 Structured data, resulted from this first part of the project, is used to build a dashboard. The code of the second phase of the project is available in [another repository](https://github.com/raulincadet/BanksHT_dashboard). The dashboard can be found [HERE](https://cours.shinyapps.io/BanksHT_dashboard/).
 
 ## Method
-While R is used to download the excel files, a greater part of the job is done with Python. Indeed, Python is used to cleaned and structured data. 
+While R is used to download the excel files, a greater part of the job is done with Python. Indeed, Python is used to cleaned and structured data. Financial data related to the banks, provided on the website of the central banks are not structured as time series data. Each excel file contains many sheets, with different kinds of financial data. My targets were the balance sheet and the income statement. I should have chronological data for
+each variable of the reports, to be able to plot their trends. In this regards, several Python functions have been written to import data from
+the excel files, cleaning and gathering them as panel data (by quarters and by banks). 
 
 ### Packages and modules
 The packages and modules used for each one of these programming languages are shown below.
@@ -49,8 +51,7 @@ I had to face some challenges to realize this phase of the projects. Indeed, alt
 6) Back to R file, cvs files are imported, and some additional manipulations are done to structure data as a panel of all variables found in the 3 datasets fo balance sheet, income statement, and number of employees.
 7) The new dataset is saved as a rda file, to be used in the second phase of the project, to build the [dashboard](https://cours.shinyapps.io/BanksHT_dashboard/).
 
-### Result
+## Result
 1) The result of this phase of the project is three datasets in cvs files, one containing panel data of the balance sheets, another one the income statements, and the number of employees. Each dataset is structured as a panel data, by bank and by quarter.
 2) A dataset of all the variables retrieved from the previous dataset, saved in a rda file.
 
-The challenges resulted from some mistakes related to the names of the sheets of the excel files and some variables, reveal that data may have been gathered manually. If this is the case, data mistakes may occur.
