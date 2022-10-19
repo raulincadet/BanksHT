@@ -1,4 +1,4 @@
-# Collecting, from a website, financial quarterly reports, to be cleaned and structured 
+# Web Scraping  and Data Wrangling of Banks Quarterly Financial Statements
 
 ![GitHub top language](https://img.shields.io/github/languages/top/raulincadet/BanksHT?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/raulincadet/BanksHT?color=green)
